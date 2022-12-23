@@ -1,9 +1,10 @@
 import { MetaData } from '../components/MetaData';
+import { PageContent } from '../components/pagecontent';
 function HomePage() {
     return (
         <>
             <MetaData page='Home' />
-            <div>Welcome to Next.js!</div>
+            <PageContent />
         </>
     );
 }
