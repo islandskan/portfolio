@@ -32,7 +32,6 @@ ul {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 25% auto;
-    row-gap: 12px;
 }
 
 @media (min-width: 768px) {
