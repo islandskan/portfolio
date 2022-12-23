@@ -20,7 +20,7 @@ build
 *.pem
 .eslintrc.json
 package-lock.json
-TODO
+next.config.js
 
 # debug
 npm-debug.log*
