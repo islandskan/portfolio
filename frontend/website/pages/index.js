@@ -1,5 +1,11 @@
+import { MetaData } from '../components/MetaData';
 function HomePage() {
-    return <div>Welcome to Next.js!</div>;
+    return (
+        <>
+            <MetaData page='Home' />
+            <div>Welcome to Next.js!</div>
+        </>
+    );
 }
 
 export default HomePage;
