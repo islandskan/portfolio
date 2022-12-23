@@ -1,0 +1,37 @@
+.nav {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+}
+
+.logo {
+}
+
+.logo_name {
+    text-transform: uppercase;
+}
+
+.nav_menu {
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.nav_menu li {
+    border: 1px solid black;
+    flex-grow: 1;
+    padding: 4px 0;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .nav {
+        padding-bottom: 1.5em;
+    }
+    .nav_menu {
+        flex-direction: column;
+    }
+
+    .nav_menu li {
+        text-align: start;
+    }
+}

@@ -1,0 +1,15 @@
+.menubar {
+    grid-row: 1 / span 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+    .menubar {
+        grid-column: 1 / span 1;
+    }
+}

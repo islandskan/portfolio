@@ -1,0 +1,10 @@
+.menu_content {
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .menu_content {
+    }
+}
