@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './Navbar.module.css';
 export const Navbar = () => {
     return (
@@ -7,9 +8,15 @@ export const Navbar = () => {
             </div>
 
             <ul className={styles.nav_menu}>
-                <li>Info</li>
-                <li>Work</li>
-                <li>Blog</li>
+                <li>
+                    <Link href='/info'>Info</Link>
+                </li>
+                <li>
+                    <Link href='/work'>Work</Link>
+                </li>
+                <li>
+                    <Link href='/blog'>Blog</Link>
+                </li>
             </ul>
         </nav>
     );
