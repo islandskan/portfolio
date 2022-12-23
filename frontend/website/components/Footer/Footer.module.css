@@ -14,3 +14,9 @@
 
 .copyright {
 }
+
+@media (min-width: 768px) {
+    .footer {
+        grid-column: 1 / span 2;
+    }
+}
