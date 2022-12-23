@@ -1,4 +1,4 @@
-import { Navbar } from './Nav/Navbar';
+import { Navbar } from './Navbar';
 import { MenuContent } from './MenuContent';
 import styles from './Menubar.module.css';
 
